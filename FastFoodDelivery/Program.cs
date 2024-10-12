@@ -64,7 +64,7 @@ void Order()
     } 
     else
     {
-        mealBuilder = new MeatMealBurger();
+        mealBuilder = new MeatMealBuilder();
     }
 
     MealDirector director = new MealDirector(mealBuilder);

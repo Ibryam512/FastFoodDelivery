@@ -2,7 +2,7 @@
 
 namespace FastFoodDelivery.BLL.Builders
 {
-    public class MeatMealBurger : IMealBuilder
+    public class MeatMealBuilder : IMealBuilder
     {
         private Meal meal = new Meal();
 
